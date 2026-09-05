@@ -1,0 +1,44 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  html {
+    scroll-behavior: smooth;
+  }
+  body {
+    font-family: 'Inter', system-ui, sans-serif;
+    background-color: #0A0F1C;
+    color: #F8FAFC;
+    overflow-x: hidden;
+  }
+}
+
+@layer components {
+  .glass-card {
+    background: rgba(255, 255, 255, 0.03);
+    border: 1px solid rgba(37, 99, 235, 0.15);
+    backdrop-filter: blur(12px);
+    border-radius: 16px;
+  }
+  .glass-card:hover {
+    border-color: rgba(37, 99, 235, 0.4);
+    box-shadow: 0 12px 40px rgba(37, 99, 235, 0.15);
+  }
+  .gradient-btn {
+    background: linear-gradient(135deg, #2563EB 0%, #06B6D4 100%);
+  }
+  .text-gradient {
+    background: linear-gradient(135deg, #2563EB 0%, #06B6D4 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+  }
+}
+
+@layer utilities {
+  .section-padding {
+    @apply py-16 md:py-24 lg:py-32;
+  }
+}
