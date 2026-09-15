@@ -36,7 +36,7 @@ export const content = {
         { value: 15, 
           suffix : ' Years of experience',
           label: ' ' },
-        { value: 6, 
+        { value: 7, 
           suffix: ' Industries', 
           label: ' ' },
         { value: 100, 
