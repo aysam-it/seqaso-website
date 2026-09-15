@@ -40,8 +40,8 @@ export const content = {
           suffix: ' Industries', 
           label: ' ' },
         { value: 100, 
-          suffix: '% Certified Experts', 
-          label: '' },
+          suffix: '%', 
+          label: ' Certified Experts' },
       ],
     },
     about: {
