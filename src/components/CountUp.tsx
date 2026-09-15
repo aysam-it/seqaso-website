@@ -1,4 +1,4 @@
-import { useRef, useEffect, useState } from 'react';
+import { useRef, useEffect } from 'react';
 import gsap from 'gsap';
 import { ScrollTrigger } from 'gsap/ScrollTrigger';
 
@@ -10,32 +10,45 @@ interface CountUpProps {
   duration?: number;
 }
 
-export default function CountUp({ end, suffix = '', duration = 2000 }: CountUpProps) {
+export default function CountUp({
+  end,
+  suffix = '',
+  duration = 2000,
+}: CountUpProps) {
   const ref = useRef<HTMLSpanElement>(null);
-  const [hasAnimated, setHasAnimated] = useState(false);
 
   useEffect(() => {
     const el = ref.current;
-    if (!el || hasAnimated) return;
+    if (!el) return;
 
     const obj = { value: 0 };
+
     const tween = gsap.to(obj, {
       value: end,
       duration,
       ease: 'power2.out',
       snap: { value: 1 },
+
       scrollTrigger: {
         trigger: el,
         start: 'top 80%',
-        onEnter: () => setHasAnimated(true),
+        once: true,
       },
+
       onUpdate: () => {
-        el.textContent = Math.round(obj.value) + suffix;
+        el.textContent = `${Math.round(obj.value)}${suffix}`;
+      },
+
+      onComplete: () => {
+        el.textContent = `${end}${suffix}`;
       },
     });
 
-    return () => { tween.kill(); };
-  }, [end, suffix, duration, hasAnimated]);
+    return () => {
+      tween.scrollTrigger?.kill();
+      tween.kill();
+    };
+  }, [end, suffix, duration]);
 
   return <span ref={ref}>0{suffix}</span>;
 }
