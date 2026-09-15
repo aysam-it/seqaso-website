@@ -33,7 +33,7 @@ export const content = {
         { name: 'Health', desc: 'Healthcare systems and patient data management' },
       ],
       stats: [
-        { value: 15, suffix: '', label: 'Years Experience' },
+        { value: 15, label: ' Years Experience' },
         { value: 6, suffix: '', label: 'Industries' },
         { value: 100, suffix: '%', label: 'Certified Experts' },
       ],
