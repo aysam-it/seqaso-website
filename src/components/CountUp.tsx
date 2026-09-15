@@ -10,7 +10,7 @@ interface CountUpProps {
   duration?: number;
 }
 
-export default function CountUp({ end, suffix = '', duration = 1.5 }: CountUpProps) {
+export default function CountUp({ end, suffix = '', duration = 2000 }: CountUpProps) {
   const ref = useRef<HTMLSpanElement>(null);
   const [hasAnimated, setHasAnimated] = useState(false);
 
