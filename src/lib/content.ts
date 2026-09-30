@@ -34,9 +34,9 @@ export const content = {
       ],
       stats: [
         { value: 15, 
-          suffix : ' Years of experience',
-          label: ' ' },
-        { value: 7, 
+          suffix : '+',
+          label: 'Years of experience ' },
+        { value: 6,
           suffix: ' Industries', 
           label: ' ' },
         { value: 100, 
