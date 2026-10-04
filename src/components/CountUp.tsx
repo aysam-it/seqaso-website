@@ -29,11 +29,11 @@ export default function CountUp({
       ease: 'power2.out',
       snap: { value: 1 },
 
-      //scrollTrigger: {
-        //trigger: el,
-        //start: 'top 80%',
-        //once: true,
-      //},
+      scrollTrigger: {
+        trigger: el,
+        start: 'top 80%',
+        once: true,
+       },
 
       onUpdate: () => {
         el.textContent = `${Math.round(obj.value)}${suffix}`;
