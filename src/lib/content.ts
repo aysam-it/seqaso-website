@@ -8,7 +8,7 @@ export const content = {
       title: 'We Engineer\nDigital Excellence',
       subtitle: 'French-certified experts delivering secure, high-quality software solutions across Europe.',
       cta: 'Discover Our Services',
-      scroll: 'Scroll',
+      //scroll: 'Scroll',
     },
     services: {
       label: 'OUR SERVICES',
@@ -98,7 +98,7 @@ export const content = {
       title: 'Nous Ingénions\nl\'Excellence Digitale',
       subtitle: 'Experts certifiés français livrant des solutions logicielles sécurisées et de haute qualité en Europe.',
       cta: 'Découvrez Nos Services',
-      scroll: 'Défiler',
+      //scroll: 'Défiler',
     },
     services: {
       label: 'NOS SERVICES',
