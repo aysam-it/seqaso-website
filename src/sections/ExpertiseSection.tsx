@@ -1,4 +1,4 @@
-/*import { Landmark, Shield, Factory, Building2, ShoppingCart, HeartPulse } from 'lucide-react';
+import { Landmark, Shield, Factory, Building2, ShoppingCart, HeartPulse } from 'lucide-react';
 import SectionReveal from '../components/SectionReveal';
 import CountUp from '../components/CountUp';
 import { t, type Lang } from '../lib/content';
@@ -44,26 +44,27 @@ export default function ExpertiseSection({ lang }: ExpertiseSectionProps) {
           })}
         </div>
 
-        <SectionReveal>
-          <div className="flex flex-wrap justify-center gap-12 lg:gap-20">
-            {expertise.stats.map((stat: any, i: number) => (
-              <div key={i} className="text-center">
-                <div className="text-4xl lg:text-5xl font-extrabold text-primary mb-2">
-                  <CountUp end={stat.value} suffix={stat.suffix} />
-                </div>
-                <p className="text-text-secondary text-sm font-medium">{stat.label}</p>
-              </div>
-            ))}
-          </div>
-        </SectionReveal>
+<SectionReveal>
+  <div className="flex flex-wrap justify-center gap-12 lg:gap-20">
+    {expertise.stats && expertise.stats.map((stat: any, i: number) => (
+      <div key={i} className="text-center">
+        <div className="text-4xl lg:text-5xl font-extrabold text-primary mb-2">
+          {stat.value}{stat.suffix}
+        </div>
+        <p className="text-text-secondary text-sm font-medium">{stat.label}</p>
+      </div>
+    ))}
+  </div>
+</SectionReveal>
+
       </div>
     </section>
   );
-} */
+} 
 
-  // new code from GEMINI 
+  // new code from GEMINI not OK
 
-  import { Landmark, Shield, Factory, Building2, ShoppingCart, HeartPulse } from 'lucide-react';
+/*  import { Landmark, Shield, Factory, Building2, ShoppingCart, HeartPulse } from 'lucide-react';
 import SectionReveal from '../components/SectionReveal';
 import CountUp from '../components/CountUp';
 import { t, type Lang } from '../lib/content';
@@ -135,3 +136,4 @@ export default function ExpertiseSection({ lang }: ExpertiseSectionProps) {
     </section>
   );
 }
+  */
