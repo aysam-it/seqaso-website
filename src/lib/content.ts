@@ -49,7 +49,7 @@ export const content = {
       title: 'French Excellence,\nGlobal Impact',
       p1: 'SEQASO brings together French-certified software engineers with over 15 years of international experience. Our team has delivered mission-critical solutions for leading organizations across Europe.',
       p2: 'We combine rigorous quality standards with agile methodologies, ensuring every project meets the highest benchmarks of security, performance, and reliability.',
-      badges: ['ISTQB Certified', 'ISO 27001', 'Agile Practitioners'],
+      badges: ['ISTQB Certified', 'Agile Practitioners'],
     },
     why: {
       label: 'WHY CHOOSE US',
@@ -88,7 +88,7 @@ export const content = {
       tagline: 'Software Engineering, Quality & Business Analysis',
       nav: ['Services', 'Expertise', 'About', 'Contact'],
       legal: ['Privacy Policy', 'Terms of Service'],
-      copyright: '© 2025 SEQASO. All rights reserved.',
+      copyright: '© 2026 SEQASO. All rights reserved.',
     },
   },
   fr: {
@@ -133,7 +133,7 @@ export const content = {
       title: 'L\'Excellence Française,\nun Impact Global',
       p1: 'SEQASO réunit des ingénieurs logiciels certifiés français avec plus de 15 ans d\'expérience internationale. Notre équipe a livré des solutions critiques pour des organisations leaders en Europe.',
       p2: 'Nous combinons des standards de qualité rigoureux avec des méthodologies agiles, garantissant que chaque projet atteint les plus hauts standards de sécurité, performance et fiabilité.',
-      badges: ['Certifiés ISTQB', 'ISO 27001', 'Praticiens Agiles'],
+      badges: ['Certifiés ISTQB', 'Praticiens Agiles'],
     },
     why: {
       label: 'POURQUOI NOUS CHOISIR',
@@ -172,7 +172,7 @@ export const content = {
       tagline: 'Ingénierie Logicielle, Qualité & Developpement',
       nav: ['Services', 'Expertise', 'À Propos', 'Contact'],
       legal: ['Politique de Confidentialité', 'Conditions d\'Utilisation'],
-      copyright: '© 2025 SEQASO. Tous droits réservés.',
+      copyright: '© 2026 SEQASO. Tous droits réservés.',
     },
   },
 };
