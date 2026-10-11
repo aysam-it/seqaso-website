@@ -6,7 +6,7 @@ export const content = {
     hero: {
       tagline: 'SOFTWARE ENGINEERING · QUALITY · BUSINESS ANALYSIS ',
       title1: 'Let\'s build systems that are',
-      title2: 'secure, secure, and lasting.',
+      title2: 'secure, secure, and lasting',
       subtitle: 'French-certified experts dedicated to the performance of your digital products', 
       cta: 'Discover Our Services',
       //scroll: 'Scroll',
