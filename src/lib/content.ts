@@ -5,8 +5,7 @@ export const content = {
     nav: { services: 'Services', expertise: 'Expertise', about: 'About', contact: 'Contact' },
     hero: {
       tagline: 'SOFTWARE ENGINEERING · QUALITY · BUSINESS ANALYSIS ',
-      title: 'Let\'s build systems that are',
-      title: 'secure, secure, and lasting',
+      title: 'Let\'s build systems that are secure, secure, and lasting',
       subtitle: 'French-certified experts dedicated to the performance of your digital products', 
       cta: 'Discover Our Services',
       //scroll: 'Scroll',
@@ -96,8 +95,7 @@ export const content = {
     nav: { services: 'Services', expertise: 'Expertise', about: 'À Propos', contact: 'Contact' },
     hero: {
       tagline: 'INGÉNIERIE LOGICIELLE · QUALITÉ · Business analyse',
-      title: 'Concevons des systèmes',
-      title: 'fiables, sûrs et durables',
+      title: 'Concevons des systèmesfiables, sûrs et durables',
       subtitle: 'Experts certifiés français au service de la performance de vos produits numériques',
       cta: 'Découvrez Nos Services',
       //scroll: 'Défiler',
