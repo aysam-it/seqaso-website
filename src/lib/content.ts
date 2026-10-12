@@ -94,7 +94,7 @@ export const content = {
   fr: {
     nav: { services: 'Services', expertise: 'Expertise', about: 'À Propos', contact: 'Contact' },
     hero: {
-      tagline: 'INGÉNIERIE LOGICIELLE · QUALITÉ · Business analyse',
+      badge: 'INGÉNIERIE LOGICIELLE · QUALITÉ · Business analyse',
       title: 'Concevons des systèmes \ fiables, sûrs et durables',
       subtitle: 'Experts français certifiés au service de la performance de vos produits numériques',
       cta: 'Découvrez Nos Services',
