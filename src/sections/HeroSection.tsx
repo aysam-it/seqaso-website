@@ -70,7 +70,7 @@ export default function HeroSection({ lang }: HeroSectionProps) {
           {hero.tagline}
         </p>
 
-        <h1 className="text-4xl sm:text-5xl md:text-6xl lg:text-7xl font-extrabold text-accent leading-[0.95] tracking-tight mb-6">
+        <h1 className="text-4xl sm:text-5xl md:text-6xl lg:text-5xl font-extrabold text-accent leading-[0.95] tracking-tight mb-6">
           {titleWords.map((line, i) => (
             <span key={i} className="block">
               {line.split(' ').map((word, j) => (
