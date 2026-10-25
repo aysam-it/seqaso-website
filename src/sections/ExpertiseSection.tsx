@@ -1,6 +1,6 @@
 import { Landmark, Shield, Factory, Building2, ShoppingCart, HeartPulse } from 'lucide-react';
 import SectionReveal from '../components/SectionReveal';
-import CountUp from '../components/CountUp';
+//import CountUp from '../components/CountUp';
 import { t, type Lang } from '../lib/content';
 
 const sectorIcons = [Landmark, Shield, Factory, Building2, ShoppingCart, HeartPulse];
