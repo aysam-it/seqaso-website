@@ -7,8 +7,7 @@ export const content = {
       tagline: 'SOFTWARE ENGINEERING · QUALITY · BUSINESS ANALYSIS ',
       title: 'Let\'s build systems \n reliable, secure, and lasting',
       subtitle: 'French-certified experts dedicated to the performance of your digital products', 
-      //cta: 'Discover Our Services',
-      //scroll: 'Scroll',
+   
     },
     services: {
       label: 'OUR SERVICES',
