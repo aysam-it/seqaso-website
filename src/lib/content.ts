@@ -7,7 +7,7 @@ export const content = {
       tagline: 'SOFTWARE ENGINEERING · QUALITY · BUSINESS ANALYSIS ',
       title: 'Let\'s build systems \n reliable, secure, and lasting',
       subtitle: 'French-certified experts dedicated to the performance of your digital products', 
-      cta: 'Discover Our Services',
+      //cta: 'Discover Our Services',
       //scroll: 'Scroll',
     },
     services: {
@@ -76,7 +76,7 @@ export const content = {
       title: 'Start Your Project',
       subtitle: 'Tell us about your needs. Our experts will get back to you within 24 hours.',
       form: {
-        name: { label: 'Name *', placeholder: 'Your full name' },
+        name: { label: 'Name *', placeholder: 'Your first name' },
         email: { label: 'Email *', placeholder: 'your@email.com' },
         subject: { label: 'Subject', placeholder: 'What is this about?' },
         message: { label: 'Message *', placeholder: 'Describe your project or inquiry...' },
